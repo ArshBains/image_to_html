@@ -1,9 +1,9 @@
 from PIL import Image
 
-image_location = r'D:\path\to\pic.jpeg'     # image path
+image_loc = r'D:\path\to\pic.jpeg'     # image path
 html_loc = r'D:\location\to\save\image.html'    # location to store the .html file with its name
 
-im = Image.open(image_location)
+im = Image.open(image_loc)
 w, h = im.size
 
 top = '<!DOCTYPE html><html lang="en" dir="ltr"><head><meta charset="utf-8"><title>Picture</title><link ' \
